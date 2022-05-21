@@ -1,0 +1,67 @@
+.nav-menu {
+    background: #282828;
+    display: flex;
+    justify-content: space-around; /*아이템 사이에 균일한 간격 만들기*/
+    align-items: center; /*아이템 가운데 정렬*/
+    height: 50px;
+}
+
+.nav-menu a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.nav-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #f1c40f;
+    transition: all .5s ease-out;
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+.foot-menu {
+    background: #282828;
+    display: flex;
+    justify-content: space-around; /*아이템 사이에 균일한 간격 만들기*/
+    align-items: center; /*아이템 가운데 정렬*/
+    height: 40px;
+}
+
+.foot-menu a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.foot-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #f1c40f;
+    transition: all .5s ease-out;
+}
+
+.foot-menu a:hover::after {
+    width: 100%;
+}
+
+.blank {
+    visibility: hidden;
+}

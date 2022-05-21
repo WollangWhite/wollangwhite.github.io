@@ -1,0 +1,176 @@
+h1.title {
+    font-size: 70px;
+    text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+    color: cadetblue;
+    opacity: 0.9;
+    
+    
+}
+
+.topbutton {
+    position:fixed;
+    width: 25px;
+    height: 25px;
+    background-color: bisque;
+    border-style: double;
+    right: 30px;
+    bottom: 70px;
+    clear: both;
+}
+
+a.list { text-decoration: none; color: black; opacity: 0.5;}
+.topbutton { text-decoration: none; color: black; opacity: 0.2;}
+.topbutton:visited, a.list:visited { text-decoration: none; }
+.topbutton:hover, a.list:hover { text-decoration: none; }
+.topbutton:focus, a.list:focus { text-decoration: none; }
+.topbutton:hover, .topbutton:active, a.list:hover, a.list:active { text-decoration: none; opacity: 0.7;}
+
+
+
+h2.head {
+    font-size: 50px;
+    margin-left: 20px;
+    transform: translate(0px, 0px);
+    background-color: rgba(126, 230, 171, 0.3);
+    text-shadow: 3px 3px 3px rgba(214, 62, 161, 0.3);
+    
+}
+
+h3.head {
+    font-size: 35px;
+    margin-left: 20px;
+    transform: translate(0px, 0px);
+    background-color: rgba(126, 230, 171, 0.3);
+    text-shadow: 3px 3px 3px rgba(214, 62, 161, 0.3);
+    
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 15px;
+    width: 1000px;
+}
+div.list {
+    opacity: 0.4;
+}
+div.list:hover {
+    opacity: 1.0;
+}
+
+nav.list {
+    width:155px; 
+    height: 300px; 
+    background-color:rgba(0, 255, 255, 0.3); 
+    float: left; 
+    border-style:solid; 
+    border-color: rgba(0, 139, 139, 0.3); 
+    position: fixed;
+}
+
+strong.button {
+    
+    color:blue;
+}
+
+strong.button div {
+    display: inline;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(138, 43, 226, 0.2);
+
+}
+
+.blank {
+    
+    visibility: hidden;
+    border: 1px solid red;
+}
+
+
+ul.in li {
+    margin: 15px;
+    padding: 3px;
+    display: inline;
+    background-color: white;
+    border: 9px double rgba(100, 100, 100, 1);
+    border-radius: 15px;
+    box-shadow: 6px 2.5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+a.list1 {
+    font-weight: bold;
+}
+
+a.list1 { text-decoration: none; color: black; }
+a.list1:visited { text-decoration: none; }
+a.list1:hover { text-decoration: none; }
+a.list1:focus { text-decoration: none; }
+a.list1:hover, a.list1:active { text-decoration: none; }
+
+
+
+.nav-menu {
+    background: #282828;
+    display: flex;
+    justify-content: space-around; /*아이템 사이에 균일한 간격 만들기*/
+    align-items: center; /*아이템 가운데 정렬*/
+    height: 50px;
+}
+
+.nav-menu a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.nav-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #f1c40f;
+    transition: all .5s ease-out;
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+.foot-menu {
+    background: #282828;
+    display: flex;
+    justify-content: space-around; /*아이템 사이에 균일한 간격 만들기*/
+    align-items: center; /*아이템 가운데 정렬*/
+    height: 40px;
+}
+
+.foot-menu a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.foot-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #f1c40f;
+    transition: all .5s ease-out;
+}
+
+.foot-menu a:hover::after {
+    width: 100%;
+}
+
+#menu:hover {
+    
+}

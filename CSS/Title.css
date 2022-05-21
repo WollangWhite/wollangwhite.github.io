@@ -1,0 +1,43 @@
+a.title { text-decoration: none; color: cadetblue;}
+a.title:visited { text-decoration: none; }
+a.title:hover { text-decoration: none; }
+a.title:focus { text-decoration: none; }
+a.title:hover, a.title:active { text-decoration: none;}
+
+
+h1.title {
+    font-size: 70px;
+    text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+    color: cadetblue;
+    opacity: 0.9;
+}
+
+h2.head {
+    font-size: 50px;
+    margin-left: 20px;
+    transform: translate(0px, 0px);
+    background-color: rgba(126, 230, 171, 0.3);
+    text-shadow: 3px 3px 3px rgba(214, 62, 161, 0.3);
+    
+}
+
+h3.head {
+    font-size: 35px;
+    margin-left: 20px;
+    transform: translate(0px, 0px);
+    background-color: rgba(126, 230, 171, 0.3);
+    text-shadow: 3px 3px 3px rgba(214, 62, 161, 0.3);
+    
+}
+
+h4.head {
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 15px;
+    width: 1000px;
+    
+}
