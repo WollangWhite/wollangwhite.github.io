@@ -61,3 +61,28 @@
 .foot-menu a:hover::after {
     width: 100%;
 }
+
+
+.blank {
+    visibility: hidden;
+}
+
+ul.in li {
+    margin: 15px;
+    padding: 3px;
+    display: inline;
+    background-color: white;
+    border: 9px double rgba(100, 100, 100, 1);
+    border-radius: 15px;
+    box-shadow: 6px 2.5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+a.list1 {
+    font-weight: bold;
+}
+
+a.list1 { text-decoration: none; color: black; }
+a.list1:visited { text-decoration: none; }
+a.list1:hover { text-decoration: none; }
+a.list1:focus { text-decoration: none; }
+a.list1:hover, a.list1:active { text-decoration: none; }
