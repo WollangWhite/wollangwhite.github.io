@@ -170,7 +170,3 @@ a.list1:hover, a.list1:active { text-decoration: none; }
 .foot-menu a:hover::after {
     width: 100%;
 }
-
-#menu:hover {
-    
-}

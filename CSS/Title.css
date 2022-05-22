@@ -36,8 +36,40 @@ h4.head {
 }
 
 .text {
+    background-color: rgba(255, 228, 196, 0.3);
     font-size: 20px;
     margin-left: 15px;
     width: 1000px;
     
 }
+
+.topbutton { text-decoration: none; color: black; opacity: 0.2;}
+.topbutton:visited { text-decoration: none; }
+.topbutton:hover { text-decoration: none; }
+.topbutton:focus { text-decoration: none; }
+.topbutton:hover, .topbutton:active { text-decoration: none; opacity: 0.7;}
+
+.topbutton {
+    position:fixed;
+    width: 25px;
+    height: 25px;
+    background-color: bisque;
+    border-style: double;
+    right: 30px;
+    bottom: 70px;
+    clear: both;
+}
+
+.blank {
+    
+    visibility: hidden;
+    border: 1px solid red;
+}
+
+
+a.href { text-decoration: none; color: darkred; font-size: 25px;}
+a.href:visited { text-decoration: none; }
+a.href:hover { text-decoration: none; }
+a.href:focus { text-decoration: none; }
+a.href:hover, a.href:active { text-decoration: none; }
+
